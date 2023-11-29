@@ -1,10 +1,10 @@
 import React from 'react'
-
+import Image from 'next/image'
 const Avatar = () => {
   return (
     <div className="avatar">
   <div className="w-24 rounded-full">
-    <img src="" alt="Profile Pic"/>
+    <Image src="" alt="Profile Pic" width="500" height="500"/>
   </div>
 </div>
   )
